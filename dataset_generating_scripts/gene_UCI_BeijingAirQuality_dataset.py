@@ -6,6 +6,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 sys.path.append('..')
+sys.path.append('SAITS')
 from modeling.utils import setup_logger
 from dataset_generating_scripts.data_processing_utils import window_truncate, add_artificial_mask, saving_into_h5
 
